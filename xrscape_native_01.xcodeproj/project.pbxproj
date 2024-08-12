@@ -18,11 +18,11 @@
 		0281734A2C3ED814008C160E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028173492C3ED814008C160E /* Assets.xcassets */; };
 		0281734D2C3ED814008C160E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0281734C2C3ED814008C160E /* Preview Assets.xcassets */; };
 		028173582C3ED815008C160E /* xrscape_native_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028173572C3ED815008C160E /* xrscape_native_01Tests.swift */; };
-		02C5E7A72C60D3BD008BDF8F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E7A62C60D3BD008BDF8F /* Secrets.swift */; };
 		02C5E7AB2C60D3D3008BDF8F /* ChatGPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E7A82C60D3D3008BDF8F /* ChatGPTService.swift */; };
 		02C5E7AC2C60D3D3008BDF8F /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E7AA2C60D3D3008BDF8F /* SpeechRecognizer.swift */; };
 		02C5E7AD2C60D3D3008BDF8F /* PlayHTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E7A92C60D3D3008BDF8F /* PlayHTService.swift */; };
 		02E200082C5902B7009DCFC4 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E200072C5902B7009DCFC4 /* ContentView2.swift */; };
+		02FD86152C69CB2D0047BF46 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD86142C69CB2D0047BF46 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +48,13 @@
 		0281734C2C3ED814008C160E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0281734E2C3ED814008C160E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028173572C3ED815008C160E /* xrscape_native_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xrscape_native_01Tests.swift; sourceTree = "<group>"; };
-		02C5E7A62C60D3BD008BDF8F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		02C5E7A82C60D3D3008BDF8F /* ChatGPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTService.swift; sourceTree = "<group>"; };
 		02C5E7A92C60D3D3008BDF8F /* PlayHTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHTService.swift; sourceTree = "<group>"; };
 		02C5E7AA2C60D3D3008BDF8F /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		02DB62A32C3EEBB800FDA589 /* xrscape_native_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xrscape_native_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DB62A42C3EEBD900FDA589 /* xrscape_native_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xrscape_native_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E200072C5902B7009DCFC4 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		02FD86142C69CB2D0047BF46 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -125,8 +125,8 @@
 				0281734E2C3ED814008C160E /* Info.plist */,
 				0281734B2C3ED814008C160E /* Preview Content */,
 				02E200072C5902B7009DCFC4 /* ContentView2.swift */,
-				02C5E7A62C60D3BD008BDF8F /* Secrets.swift */,
 				02C5E7A82C60D3D3008BDF8F /* ChatGPTService.swift */,
+				02FD86142C69CB2D0047BF46 /* Secrets.swift */,
 				02C5E7A92C60D3D3008BDF8F /* PlayHTService.swift */,
 				02C5E7AA2C60D3D3008BDF8F /* SpeechRecognizer.swift */,
 			);
@@ -260,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FD86152C69CB2D0047BF46 /* Secrets.swift in Sources */,
 				0244A2822C3FB58C0063D317 /* ScenaryButton.swift in Sources */,
-				02C5E7A72C60D3BD008BDF8F /* Secrets.swift in Sources */,
 				0244A2852C3FB5C10063D317 /* AppModel.swift in Sources */,
 				0244A27F2C3FB5620063D317 /* SoundPlayer.swift in Sources */,
 				0244A27D2C3FB52C0063D317 /* ControlPanel.swift in Sources */,
